@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="css/r.css">
+    
+</head>
+<body>
+    <div class="container">
+        <h1 class="logo">Skype Reborn </h1>
+        <h2>Регистрация нового пользователя</h2>
+        <form id="register-form" class="form">
+            <input type="text" id="username" name="username" placeholder="Логин (6-12 символов, буквы, цифры, подчеркивания)" required>
+            <input type="text" id="fullname" name="fullname" placeholder="Ваше имя (1-20 символов)" required>
+            <input type="password" id="password" name="password" placeholder="Ваш пароль (6-32 символов)" required>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+            <input type="text" id="referrer" name="referrer" placeholder="Кто пригласил? (необезательно)">
+            <button type="submit" class="button">Регистрация</button>
+        </form>
+        <div id="register-error" class="error-message"></div>
+        <a href="auth.html" class="link">Вход</a>
+    </div>
+    <script src="js/r3.js"></script>
+</body>
+</html>
